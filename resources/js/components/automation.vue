@@ -151,7 +151,7 @@
                   dusk="secret-field"
                   :disabled="!editable">
                 </div>
-                <p class="help">Use this token to validate received payloads. It will be sent with the request in the X-Mailcare-Token HTTP header.</p>
+                <p class="help">Use this token to validate received payloads. It will be sent with the request in the X-MailCare-Secret-Token HTTP header.</p>
               </div>
 
               <div class="field" v-if="selectedTypeOfAction === 'webhook'">
